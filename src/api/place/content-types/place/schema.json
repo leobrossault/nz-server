@@ -45,6 +45,10 @@
       "type": "uid",
       "targetField": "title",
       "required": true
+    },
+    "enable_on_map": {
+      "type": "boolean",
+      "default": true
     }
   }
 }
