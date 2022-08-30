@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "all_articles",
+  "info": {
+    "singularName": "all-article",
+    "pluralName": "all-articles",
+    "displayName": "All articles",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
