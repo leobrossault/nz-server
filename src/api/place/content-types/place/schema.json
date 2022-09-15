@@ -16,7 +16,7 @@
       "type": "string",
       "required": true
     },
-    "image": {
+    "map_image": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -49,6 +49,16 @@
     "enable_on_map": {
       "type": "boolean",
       "default": true
+    },
+    "banner_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
