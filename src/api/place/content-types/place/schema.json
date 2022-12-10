@@ -16,39 +16,10 @@
       "type": "string",
       "required": true
     },
-    "map_image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "latitude": {
-      "type": "string",
-      "required": true
-    },
-    "longitude": {
-      "type": "string",
-      "required": true
-    },
-    "start": {
-      "type": "date"
-    },
-    "end": {
-      "type": "date"
-    },
     "slug": {
       "type": "uid",
       "targetField": "title",
       "required": true
-    },
-    "enable_on_map": {
-      "type": "boolean",
-      "default": true
     },
     "banner_image": {
       "type": "media",
@@ -60,10 +31,6 @@
         "videos",
         "audios"
       ]
-    },
-    "timezone": {
-      "type": "string",
-      "default": "Pacific/Auckland"
     }
   }
 }
